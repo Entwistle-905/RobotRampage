@@ -5,7 +5,7 @@ using UnityEditor.SceneManagement;
 using System;
 public class Demo : MonoBehaviour
 {
-    public static void Main()
+    void Start()
     {
         Dictionary<string, int> cityPopulation = new Dictionary<string, int>();
         cityPopulation.Add("Tokyo", 38000000);
@@ -14,13 +14,13 @@ public class Demo : MonoBehaviour
         cityPopulation.Add("San Paulo", 21000000);
         cityPopulation.Add("Mexico City", 21000000);
 
-        Console.WriteLine("City Population");
+        Debug.Log("City Population");
 
         foreach (KeyValuePair<string, int> city in cityPopulation)
         {
-            Console.WriteLine("City: " + city.Key + ", Population: " + city.Value);
+            Debug.Log("City: " + city.Key + ", Population: " + city.Value);
         }
 
-        Console.WriteLine("Total number of cities: " + cityPopulation.Count);
+        Debug.Log("Total number of cities: " + cityPopulation.Count);
     }
 }

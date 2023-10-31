@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - wall
+  - Pistol
+  - Rifle
+  - Shotgun
   layers:
   - Default
   - TransparentFX
