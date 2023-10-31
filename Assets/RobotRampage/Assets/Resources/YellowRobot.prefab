@@ -143,6 +143,7 @@ GameObject:
   - component: {fileID: 54000013540776428}
   - component: {fileID: 195000014275328188}
   - component: {fileID: 82000012485114050}
+  - component: {fileID: 449223545}
   m_Layer: 8
   m_Name: YellowRobot
   m_TagString: Untagged
@@ -166,7 +167,7 @@ Transform:
   - {fileID: 4000011028213440}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -5.3308964, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &65000014212949338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -314,6 +315,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &449223545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010332420218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cb16e20baed8b4e888788f54f6f3b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  robotType: YellowRobot
+  health: 20
+  range: 300
+  fireRate: 5
+  missileFireSpot: {fileID: 4000011028213440}
 --- !u!1 &1000010450579988
 GameObject:
   m_ObjectHideFlags: 0
