@@ -8,6 +8,7 @@ TagManager:
   - Pistol
   - Rifle
   - Shotgun
+  - AssaultRifle
   layers:
   - Default
   - TransparentFX
