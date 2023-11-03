@@ -1627,6 +1627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   robotType: BlueRobot
+  missileprefab: {fileID: 1000010020854282, guid: 9976923b00f0fd34a98bc13985b75759, type: 3}
   health: 10
   range: 200
   fireRate: 1

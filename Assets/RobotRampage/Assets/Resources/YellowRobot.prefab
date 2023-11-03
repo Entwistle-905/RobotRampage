@@ -350,6 +350,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   robotType: YellowRobot
+  missileprefab: {fileID: 1000012840967064, guid: b01d0670dae754544a163a4b6932d91b, type: 3}
   health: 20
   range: 300
   fireRate: 5
