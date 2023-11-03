@@ -746,6 +746,9 @@ MonoBehaviour:
   ammo: {fileID: 1234778979}
   liveFire: {fileID: 8300000, guid: fc35b99cc2f26e042a912e28beb77816, type: 3}
   dryFire: {fileID: 8300000, guid: c5e2aa78733fa304084e7ea8d288130b, type: 3}
+  zoomFactor: 1.3
+  range: 60
+  damage: 3
 --- !u!95 &264768383
 Animator:
   serializedVersion: 5
@@ -1185,6 +1188,9 @@ MonoBehaviour:
   ammo: {fileID: 1234778979}
   liveFire: {fileID: 8300000, guid: 58a99eae70737da4dab876e328c1acc3, type: 3}
   dryFire: {fileID: 8300000, guid: c5e2aa78733fa304084e7ea8d288130b, type: 3}
+  zoomFactor: 1.4
+  range: 30
+  damage: 1
 --- !u!95 &371080244
 Animator:
   serializedVersion: 5
@@ -3346,6 +3352,7 @@ GameObject:
   - component: {fileID: 1234778975}
   - component: {fileID: 1234778978}
   - component: {fileID: 1234778979}
+  - component: {fileID: 1234778980}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3620,6 +3627,21 @@ MonoBehaviour:
   pistolAmmo: 20
   shotgunAmmo: 10
   assaultRifleAmmo: 50
+--- !u!114 &1234778980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234778973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b841484a9430de845ade6c2f4d51ab7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  armor: 20
+  gameUI: {fileID: 1114207371}
 --- !u!1 &1265541549
 GameObject:
   m_ObjectHideFlags: 0
@@ -4614,6 +4636,9 @@ MonoBehaviour:
   ammo: {fileID: 1234778979}
   liveFire: {fileID: 8300000, guid: 6e986f34c5366444998e68d2bb475539, type: 3}
   dryFire: {fileID: 8300000, guid: c5e2aa78733fa304084e7ea8d288130b, type: 3}
+  zoomFactor: 1.1
+  range: 10
+  damage: 10
 --- !u!95 &1845220447
 Animator:
   serializedVersion: 5
