@@ -1628,6 +1628,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   robotType: BlueRobot
   missileprefab: {fileID: 1000010020854282, guid: 9976923b00f0fd34a98bc13985b75759, type: 3}
+  deathSound: {fileID: 8300000, guid: dcafca2c8c84659449cec173016e2e69, type: 3}
+  fireSound: {fileID: 8300000, guid: 91ddb167c9d625943aa8146c45f480e4, type: 3}
+  weakHitSound: {fileID: 8300000, guid: 7efdedc2dd48787489f43bb54ea2b443, type: 3}
   health: 10
   range: 200
   fireRate: 1

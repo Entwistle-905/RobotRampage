@@ -351,6 +351,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   robotType: YellowRobot
   missileprefab: {fileID: 1000012840967064, guid: b01d0670dae754544a163a4b6932d91b, type: 3}
+  deathSound: {fileID: 8300000, guid: dcafca2c8c84659449cec173016e2e69, type: 3}
+  fireSound: {fileID: 8300000, guid: 91ddb167c9d625943aa8146c45f480e4, type: 3}
+  weakHitSound: {fileID: 8300000, guid: 7efdedc2dd48787489f43bb54ea2b443, type: 3}
   health: 20
   range: 300
   fireRate: 5
