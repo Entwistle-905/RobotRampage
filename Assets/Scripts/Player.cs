@@ -11,6 +11,9 @@ public class Player : MonoBehaviour
     private GunEquipper gunEquipper;
     private Ammo ammo;
 
+    public Game game;
+    public AudioClip playerDead;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,14 +44,18 @@ public class Player : MonoBehaviour
 
     if (health <= 0)
     {
-        Debug.Log("GameOver");
+        GetComponent<AudioSource>().PlayOneShot(playerDead);
+        game.GameOver();
     }
 }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (this.transform.position.y != 2.68)
+        {
+            this.transform.position.Set(this.transform.position.x, 2.68f, this.transform.position.z);
+        }
     }
 
     private void pickupHealth()
